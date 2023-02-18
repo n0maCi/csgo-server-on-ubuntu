@@ -40,7 +40,7 @@ cd ~/steamcmd
 wget http://media.steampowered.com/client/steamcmd_linux.tar.gz
 tar xvfz *.tar.gz
 ```
-Создаем скрипт для установки и обновления CS:GO сервера (Если создали пользователя под другим именем, то необходимо его поменять +force_install_dir /home/*Ваш пользователь*/steamcmd/csgo)
+Создаем скрипт для установки и обновления CS:GO сервера <br/> (Если создали пользователя под другим именем, то необходимо его поменять +force_install_dir /home/*Ваш пользователь*/steamcmd/csgo)
 
 ```
 echo "STEAMEXE=steamcmd ./steamcmd.sh +force_install_dir /home/csgo/steamcmd/csgo +login anonymous +app_update 740 validate +quit" > updateCSGO.sh

@@ -89,9 +89,7 @@ cd ~/steamcmd/csgo/csgo/addons/sourcemod/plugins
 Уберем лишние плагины (Я делаю так)
 
 ```
-mv *.smx disable
-cd disable
-mv admin-flatfile.smx basecommands.smx ../
+for file in `ls  | egrep -v "admin-flatfile.smx|basecommands.smx|disabled"` ; do mv $file disabled/ ; done
 ```
 
 

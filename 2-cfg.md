@@ -42,7 +42,7 @@ cd csgo
 nano webapi_authkey.txt
 ```
 
-И ставим туда API ключ от аккаунта Steam https://steamcommunity.com/dev/apikey (Чтобы сохранить ctrl + o, enter, ctrl + x) Пример:
+И ставим туда API ключ от аккаунта Steam https://steamcommunity.com/dev/apikey <br/> (Чтобы сохранить ctrl + o, enter, ctrl + x) <br/> Пример:
 
 ```
 VTA9SYK5GJE2PR23FSPGUGQW5TUZYT36
@@ -60,7 +60,7 @@ cd cfg
 nano server.cfg
 ```
 
-Мой cfg выглядит так (Чтобы сохранить ctrl + o, enter, ctrl + x)
+Мой cfg выглядит так <br/> (Чтобы сохранить ctrl + o, enter, ctrl + x)
 
 ```
 hostname "n0maCi" // Название сервера
@@ -76,7 +76,7 @@ sv_minupdaterate "128"
 sv_client_cmdrate_difference "0"
 ```
 
-Все готово для первого запуска! Переходи к изначальной папке
+Все готово для первого запуска! <br/> Переходи к изначальной папке
 
 ```
 cd ~/steamcmd/csgo
@@ -88,7 +88,7 @@ cd ~/steamcmd/csgo
 ./start.sh
 ```
 
-Чтобы увидеть консоль нужно прописать (Для выхода из консоли нужно нажимать: ctrl + a + d)
+Чтобы увидеть консоль нужно прописать <br/> (Для выхода из консоли нужно нажимать: ctrl + a + d)
 
 ```
 screen -R server
@@ -110,3 +110,5 @@ connect *ВАШ IP*:27015;password *ВАШ ПАРОЛЬ*
 ```
 exit
 ```
+
+[Установка Metamod и SourceMod](3-sourcemod.md)

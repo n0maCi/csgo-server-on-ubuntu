@@ -17,3 +17,4 @@ usermod -aG sudo csgo
 ```
 su - csgo
 ```
+[Установка Steamcmd и CS:GO](1-steamcmd.md)

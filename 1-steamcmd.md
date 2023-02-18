@@ -58,4 +58,5 @@ chmod +x updateCSGO.sh
 ./updateCSGO.sh
 ```
 
+[Установка Steamcmd и CS:GO](1-steamcmd.md)
 

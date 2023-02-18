@@ -91,6 +91,4 @@ cd ~/steamcmd/csgo/csgo/addons/sourcemod/plugins
 ```
 for file in `ls  | egrep -v "admin-flatfile.smx|basecommands.smx|disabled"` ; do mv $file disabled/ ; done
 ```
-
-
-
+[Установка других плагинов](4-plugins.md)
